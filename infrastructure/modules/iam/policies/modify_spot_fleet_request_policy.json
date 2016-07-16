@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ModifySpotFleetRequest",
+      "Action": [
+        "ec2:DescribeSpotFleetRequests",
+        "ec2:ModifySpotFleetRequest"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}

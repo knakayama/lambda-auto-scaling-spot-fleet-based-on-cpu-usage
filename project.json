@@ -1,0 +1,18 @@
+{
+  "name": "lambda-auto-scaling-spot-fleet-based-on-cpu-usage",
+  "description": "lambda auto scaling spot fleet based on cpu usage",
+  "nameTemplate": "{{.Function.Name}}",
+  "memory": 128,
+  "timeout": 5,
+  "runtime": "python",
+  "defaultEnvironment": "dev",
+  "environment": {
+    "SpotFleetRequestId": "",
+    "SlackHookUrl": "",
+    "SlackChannel": "",
+    "MaxThreshold": "10.0",
+    "MinThreshold": "5.0",
+    "MaxCapacity": "5",
+    "MinCapacity": "2"
+  }
+}

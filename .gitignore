@@ -1,0 +1,4 @@
+.terraform
+*tfstate*
+infrastructure/modules/spot_fleet/keys/*
+!.gitkeep
